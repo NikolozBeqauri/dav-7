@@ -1,0 +1,1663 @@
+/*header*/
+.header_ul{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 119px;
+    width: 1440px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.header_ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header_home{
+    margin-left: 205px;
+}
+.header_input{
+    margin-left: 146px;
+}
+.main_logo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 68px;
+}
+.header_texts{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.header_input input{
+    width: 336px;
+    height: 41px;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+}
+.searchbar div:hover{
+    background: #F1F1F1;
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+
+/*main*/
+.searchbar{
+    font-family: 'Poppins', sans-serif;   
+     margin-left: 345px;
+    margin-top: 40px;
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(8, 82px);
+}
+.searchbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 34px;
+    border: 0.5px solid #EAEAEA;
+    border-radius: 10px;
+}
+/*content*/
+
+.home_section{
+    font-family: 'Poppins', sans-serif;   
+    margin-top: 45px;
+    margin-left: 104px;
+    display: grid; 
+    grid-template-columns: repeat(4,260px);
+    grid-template-rows:  repeat(3,271px);
+    grid-gap: 107px 64px;
+
+}
+/*1*/
+.home_section div{
+    display: grid; 
+    grid-template-rows:  repeat(6,50px);
+}
+.content_div1_div1{
+  background-color: white;
+}
+.content_div1_div2{
+    background: rgba(205, 240, 234, 1);
+}
+.content_div1_div3{
+    background: rgba(249, 249, 249, 1);
+}
+.content_div1_div4{
+background: rgba(246, 198, 234, 1);
+}
+.content_div1_div5{
+    background: rgba(250, 244, 183, 1);
+}
+.content_div1_div6{
+    background-color: white;
+}
+/*2*/
+.content_div2_div1{
+    background-color: white;
+}
+.content_div2_div2{
+    background: rgba(212, 236, 221, 1);
+}
+.content_div2_div3{
+    background: rgba(52, 91, 99, 1);
+}
+.content_div2_div4{
+    background: rgba(21, 45, 53, 1);
+}
+.content_div2_div5{
+    background: rgba(17, 32, 49, 1);
+}
+.content_div2_div6{
+    background-color: white;
+}
+/*3*/
+
+.content_div3_div1{
+    background-color: white;
+}
+.content_div3_div2{
+    background: rgba(249, 243, 223, 1);
+}
+.content_div3_div3{
+    background: rgba(205, 242, 202, 1);
+}
+.content_div3_div4{
+    background: rgba(255, 222, 250, 1);
+}
+.content_div3_div5{
+    background: rgba(255, 200, 152, 1);
+}
+.content_div3_div6{
+    background-color: white;
+}
+/*4*/
+.content_div4_div1{
+    background-color: white;
+}
+.content_div4_div2{
+    background: rgba(51, 48, 228, 1);
+}
+.content_div4_div3{
+    background: rgba(246, 55, 236, 1);
+}
+.content_div4_div4{
+    background: rgba(251, 180, 84, 1);
+}
+.content_div4_div5{
+    background: rgba(250, 234, 72, 1);
+}
+.content_div4_div6{
+    background-color: white;
+}
+/*5*/
+.content_div5_div1{
+    background-color: white;
+}
+.content_div5_div2{
+    background: rgba(217, 215, 241, 1);
+}
+.content_div5_div3{
+    background: rgba(255, 253, 222, 1);
+}
+.content_div5_div4{
+    background: rgba(231, 251, 190, 1);
+}
+.content_div5_div5{
+    background: rgba(255, 203, 203, 1);
+}
+.content_div5_div6{
+    background-color: white;
+}
+/*6*/
+.content_div6_div1{
+    background-color: white;
+}
+.content_div6_div2{
+    background: rgba(153, 0, 0, 1);
+}
+.content_div6_div3{
+    background: rgba(255, 91, 0, 1);
+}
+.content_div6_div4{
+    background: rgba(212, 217, 37, 1);
+}
+.content_div6_div5{
+    background: rgba(255, 238, 99, 1);
+}
+.content_div6_div6{
+    background-color: white;
+}
+
+/*7*/
+.content_div7_div1{
+    background-color: white;
+}
+.content_div7_div2{
+    background: rgba(185, 22, 70, 1);
+}
+.content_div7_div3{
+    background: rgba(223, 216, 202, 1);
+}
+.content_div7_div4{
+    background: rgba(251, 243, 228, 1);
+}
+.content_div7_div5{
+    background: rgba(16, 86, 82, 1);
+}
+.content_div7_div6{
+    background-color: white;
+}
+
+/*8*/
+.content_div8_div1{
+    background-color: white;
+}
+.content_div8_div2{
+    background: rgba(205, 240, 234, 1);
+}
+.content_div8_div3{
+    background: rgba(249, 249, 249, 1);
+}
+.content_div8_div4{
+    background: rgba(246, 198, 234, 1);
+}
+.content_div8_div5{
+    background: rgba(250, 244, 183, 1);
+}
+.content_div8_div6{
+    background-color: white;
+}
+/*9*/
+.content_div9_div1{
+    background-color: white;
+}
+.content_div9_div2{
+    background: rgba(255, 204, 29, 1);
+}
+.content_div9_div3{
+    background: rgba(11, 70, 25, 1);
+}
+.content_div9_div4{
+    background: rgba(17, 101, 48, 1);
+}
+.content_div9_div5{
+    background: rgba(232, 232, 204, 1);
+}
+.content_div9_div6{
+    background-color: white;
+}
+/*10*/
+.content_div10_div1{
+    background-color: white;
+}
+.content_div10_div2{
+    background: rgba(0, 255, 171, 1);
+}
+.content_div10_div3{
+    background: rgba(20, 195, 142, 1);
+}
+.content_div10_div4{
+    background: rgba(184, 241, 176, 1);
+}
+.content_div10_div5{
+    background: rgba(227, 252, 191, 1);
+}
+.content_div10_div6{
+    background-color: white;
+}
+/*11*/
+.content_div11_div1{
+    background-color: white;
+}
+.content_div11_div2{
+    background: rgba(73, 255, 0, 1);
+}
+.content_div11_div3{
+    background: rgba(251, 255, 0, 1);
+}
+.content_div11_div4{
+    background: rgba(255, 147, 0, 1);
+}
+.content_div11_div5{
+    background: rgba(255, 0, 0, 1);
+}
+.content_div11_div6{
+    background-color: white;
+}
+/*12*/
+.content_div12_div1{
+    background-color: white;
+}
+.content_div12_div2{
+    background: rgba(6, 40, 61, 1);
+}
+.content_div12_div3{
+    background: rgba(19, 99, 223, 1);
+}
+.content_div12_div4{
+    background: rgba(71, 181, 255, 1);
+}
+.content_div12_div5{
+    background: rgba(223, 246, 255, 1);
+}
+.content_div12_div6{
+    background-color: white;
+}
+
+.content_div1 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div3 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div4 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div5 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div6 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div7 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div8 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div9 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div10 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div11 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.content_div12 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.home_section span{
+    color: rgba(255, 255, 255, 1);
+}
+.content_div1_div2 div{
+    opacity: 0;
+}
+.content_div1_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div3 div{
+    opacity: 0;
+}
+.content_div1_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div4 div{
+    opacity: 0;
+}
+.content_div1_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div5 div{
+    opacity: 0;
+}
+.content_div1_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div6 div{
+    opacity: 0;
+}
+.content_div1_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div7 div{
+    opacity: 0;
+}
+.content_div1_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div8 div{
+    opacity: 0;
+}
+.content_div1_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div9 div{
+    opacity: 0;
+}
+.content_div1_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div10 div{
+    opacity: 0;
+}
+.content_div1_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div11 div{
+    opacity: 0;
+}
+.content_div1_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div1_div12 div{
+    opacity: 0;
+}
+.content_div1_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+
+.content_div2_div2 div{
+    opacity: 0;
+}
+.content_div2_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div3 div{
+    opacity: 0;
+}
+.content_div2_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div4 div{
+    opacity: 0;
+}
+.content_div2_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div5 div{
+    opacity: 0;
+}
+.content_div2_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div6 div{
+    opacity: 0;
+}
+.content_div2_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div7 div{
+    opacity: 0;
+}
+.content_div2_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div8 div{
+    opacity: 0;
+}
+.content_div2_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div9 div{
+    opacity: 0;
+}
+.content_div2_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div10 div{
+    opacity: 0;
+}
+.content_div2_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div11 div{
+    opacity: 0;
+}
+.content_div2_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div2_div12 div{
+    opacity: 0;
+}
+.content_div2_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+
+.content_div3_div2 div{
+    opacity: 0;
+}
+.content_div3_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div3 div{
+    opacity: 0;
+}
+.content_div3_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div4 div{
+    opacity: 0;
+}
+.content_div3_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div5 div{
+    opacity: 0;
+}
+.content_div3_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div6 div{
+    opacity: 0;
+}
+.content_div3_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div7 div{
+    opacity: 0;
+}
+.content_div3_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div8 div{
+    opacity: 0;
+}
+.content_div3_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div9 div{
+    opacity: 0;
+}
+.content_div3_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div10 div{
+    opacity: 0;
+}
+.content_div3_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div11 div{
+    opacity: 0;
+}
+.content_div3_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div12 div{
+    opacity: 0;
+}
+.content_div3_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div2 div{
+    opacity: 0;
+}
+.content_div4_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div3 div{
+    opacity: 0;
+}
+.content_div4_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div4 div{
+    opacity: 0;
+}
+.content_div4_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div5 div{
+    opacity: 0;
+}
+.content_div4_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div6 div{
+    opacity: 0;
+}
+.content_div4_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div7 div{
+    opacity: 0;
+}
+.content_div4_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div8 div{
+    opacity: 0;
+}
+.content_div4_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div9 div{
+    opacity: 0;
+}
+.content_div4_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div10 div{
+    opacity: 0;
+}
+.content_div4_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div11 div{
+    opacity: 0;
+}
+.content_div4_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div4_div12 div{
+    opacity: 0;
+}
+.content_div4_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+
+.content_div5_div2 div{
+    opacity: 0;
+}
+.content_div5_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div3 div{
+    opacity: 0;
+}
+.content_div5_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div4 div{
+    opacity: 0;
+}
+.content_div5_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div5 div{
+    opacity: 0;
+}
+.content_div5_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div6 div{
+    opacity: 0;
+}
+.content_div5_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div7 div{
+    opacity: 0;
+}
+.content_div5_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div8 div{
+    opacity: 0;
+}
+.content_div5_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div9 div{
+    opacity: 0;
+}
+.content_div5_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div10 div{
+    opacity: 0;
+}
+.content_div5_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div11 div{
+    opacity: 0;
+}
+.content_div5_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div5_div12 div{
+    opacity: 0;
+}
+.content_div5_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div2 div{
+    opacity: 0;
+}
+.content_div6_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div3 div{
+    opacity: 0;
+}
+.content_div6_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div4 div{
+    opacity: 0;
+}
+.content_div6_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div5 div{
+    opacity: 0;
+}
+.content_div6_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div6 div{
+    opacity: 0;
+}
+.content_div6_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div7 div{
+    opacity: 0;
+}
+.content_div6_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div8 div{
+    opacity: 0;
+}
+.content_div6_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div9 div{
+    opacity: 0;
+}
+.content_div6_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div10 div{
+    opacity: 0;
+}
+.content_div6_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div11 div{
+    opacity: 0;
+}
+.content_div6_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div6_div12 div{
+    opacity: 0;
+}
+.content_div6_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div2 div{
+    opacity: 0;
+}
+.content_div7_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div3 div{
+    opacity: 0;
+}
+.content_div7_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div4 div{
+    opacity: 0;
+}
+.content_div7_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div5 div{
+    opacity: 0;
+}
+.content_div7_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div6 div{
+    opacity: 0;
+}
+.content_div7_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div7 div{
+    opacity: 0;
+}
+.content_div7_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div8 div{
+    opacity: 0;
+}
+.content_div7_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div9 div{
+    opacity: 0;
+}
+.content_div7_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div10 div{
+    opacity: 0;
+}
+.content_div7_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div11 div{
+    opacity: 0;
+}
+.content_div7_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div7_div12 div{
+    opacity: 0;
+}
+.content_div7_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+
+.content_div8_div2 div{
+    opacity: 0;
+}
+.content_div8_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div3 div{
+    opacity: 0;
+}
+.content_div8_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div4 div{
+    opacity: 0;
+}
+.content_div8_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div5 div{
+    opacity: 0;
+}
+.content_div8_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div6 div{
+    opacity: 0;
+}
+.content_div8_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div7 div{
+    opacity: 0;
+}
+.content_div8_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div8 div{
+    opacity: 0;
+}
+.content_div8_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div9 div{
+    opacity: 0;
+}
+.content_div8_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div10 div{
+    opacity: 0;
+}
+.content_div8_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div11 div{
+    opacity: 0;
+}
+.content_div8_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div8_div12 div{
+    opacity: 0;
+}
+.content_div8_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div2 div{
+    opacity: 0;
+}
+.content_div9_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div3 div{
+    opacity: 0;
+}
+.content_div9_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div4 div{
+    opacity: 0;
+}
+.content_div9_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div5 div{
+    opacity: 0;
+}
+.content_div9_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div6 div{
+    opacity: 0;
+}
+.content_div9_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div7 div{
+    opacity: 0;
+}
+.content_div9_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div8 div{
+    opacity: 0;
+}
+.content_div9_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div9 div{
+    opacity: 0;
+}
+.content_div9_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div10 div{
+    opacity: 0;
+}
+.content_div9_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div11 div{
+    opacity: 0;
+}
+.content_div9_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div9_div12 div{
+    opacity: 0;
+}
+.content_div10_div2 div{
+    opacity: 0;
+}
+.content_div10_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div3 div{
+    opacity: 0;
+}
+.content_div10_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div4 div{
+    opacity: 0;
+}
+.content_div10_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div5 div{
+    opacity: 0;
+}
+.content_div10_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div6 div{
+    opacity: 0;
+}
+.content_div10_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div7 div{
+    opacity: 0;
+}
+.content_div10_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div8 div{
+    opacity: 0;
+}
+.content_div10_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div9 div{
+    opacity: 0;
+}
+.content_div10_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div10 div{
+    opacity: 0;
+}
+.content_div10_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div11 div{
+    opacity: 0;
+}
+.content_div10_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div10_div12 div{
+    opacity: 0;
+}
+.content_div10_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div2 div{
+    opacity: 0;
+}
+.content_div11_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div3 div{
+    opacity: 0;
+}
+.content_div11_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div4 div{
+    opacity: 0;
+}
+.content_div11_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div5 div{
+    opacity: 0;
+}
+.content_div11_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div6 div{
+    opacity: 0;
+}
+.content_div11_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div7 div{
+    opacity: 0;
+}
+.content_div11_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div8 div{
+    opacity: 0;
+}
+.content_div11_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div9 div{
+    opacity: 0;
+}
+.content_div11_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div10 div{
+    opacity: 0;
+}
+.content_div11_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div11 div{
+    opacity: 0;
+}
+.content_di11_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div11_div12 div{
+    opacity: 0;
+}
+.content_div11_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div2 div{
+    opacity: 0;
+}
+.content_div12_div2 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div3 div{
+    opacity: 0;
+}
+.content_div12_div3 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div4 div{
+    opacity: 0;
+}
+.content_div12_div4 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div5 div{
+    opacity: 0;
+}
+.content_div12_div5 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div6 div{
+    opacity: 0;
+}
+.content_div12_div6 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div7 div{
+    opacity: 0;
+}
+.content_div3_div7 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div3_div8 div{
+    opacity: 0;
+}
+.content_div12_div8 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div9 div{
+    opacity: 0;
+}
+.content_div12_div9 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div10 div{
+    opacity: 0;
+}
+.content_div12_div10 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div11 div{
+    opacity: 0;
+}
+.content_div12_div11 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+.content_div12_div12 div{
+    opacity: 0;
+}
+.content_div12_div12 div:hover{
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 10px 0px 4px;
+    opacity: 1;
+}
+
+/*collection page*/
+
+.card_section{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
+    width: 1440px;
+    height: 283px;
+    margin-top: 130px;
+    margin-left: 140px;
+}
+.collection_main_card{
+    display: flex;
+    margin-top: 78px;
+    background-image: url(../img/colection_main_card.png);
+    width: 1440px;
+    height: 283px;  
+    justify-content: center;
+    align-items: center;
+}
+.collection_main_card h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+.collection_card{
+    width: 346px;
+    height: 314px;
+}
+.collection_card_colors_div{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.collection_card_colors_div div{
+   width: 60px;
+   height: 60px;
+}
+.collection_text{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    color: #5A5A5A;
+    text-align: center;
+}
+
+.collection_color_1{
+    width: 58px;
+    height: 58px;
+    background: #D12529;
+    border-radius: 50%;
+}
+.collection_color_2{
+    width: 58px;
+    height: 58px;
+    background: rgba(57, 68, 48, 1);
+    border-radius: 50%;
+}
+.collection_color_3{
+    width: 58px;
+    height: 58px;
+    background: rgba(252, 115, 159, 1);
+    border-radius: 50%;
+}
+.collection_color_4{
+    width: 58px;
+    height: 58px;
+    background: rgba(250, 159, 74, 1);
+    border-radius: 50%;
+}
+.collection_color_5{
+    width: 58px;
+    height: 58px;
+    background: rgba(161, 53, 131, 1);
+    border-radius: 50%;
+}
+.collection_color_6{
+    width: 58px;
+    height: 58px;
+    background: rgba(255, 134, 1, 1);
+    border-radius: 50%;
+}
+.collection_color_7{
+    width: 58px;
+    height: 58px;
+    background: rgba(242, 234, 231, 1);
+    border-radius: 50%;
+}
+.collection_color_8{
+    width: 58px;
+    height: 58px;
+    background: rgba(67, 0, 1, 1);
+    border-radius: 50%;
+}
+.collection_color_9{
+    width: 58px;
+    height: 58px;
+    background: rgba(21, 16, 15, 1);
+    border-radius: 50%;
+}
+.collection_color_10{
+    width: 58px;
+    height: 58px;
+    background: rgba(229, 146, 34, 1);
+    border-radius: 50%;
+}
+.collection_color_11{
+    width: 58px;
+    height: 58px;
+    background: rgba(127, 115, 181, 1);
+    border-radius: 50%;
+}
+.collection_color_12{
+    width: 58px;
+    height: 58px;
+    background: rgba(226, 223, 230, 1);
+    border-radius: 50%;
+}
+.collection_color_13{
+    width: 58px;
+    height: 58px;
+    background: rgba(83, 64, 144, 1);
+    border-radius: 50%;
+}
+.collection_color_14{
+    width: 58px;
+    height: 58px;
+    background: rgba(14, 68, 167, 1);
+    border-radius: 50%;
+}
+.collection_color_15{
+    width: 58px;
+    height: 58px;
+    background: rgba(5, 4, 8, 1);
+    border-radius: 50%;
+}
+.collection_color_16{
+    width: 58px;
+    height: 58px;
+    background: rgba(246, 246, 248, 1);
+    border-radius: 50%;
+}
+.collection_color_17{
+    width: 58px;
+    height: 58px;
+    background: rgba(253, 207, 5, 1);
+    border-radius: 50%;
+}
+.collection_color_18{
+    width: 58px;
+    height: 58px;
+    background: rgba(73, 64, 62, 1);
+    border-radius: 50%;
+}
+.collection_color_19{
+    width: 58px;
+    height: 58px;
+    background: rgba(230, 217, 201, 1);
+    border-radius: 50%;
+}
+.collection_color_20{
+    width: 58px;
+    height: 58px;
+    background: rgba(249, 232, 34, 1);
+    border-radius: 50%;
+}
+
+.collection_color_21{
+    width: 58px;
+    height: 58px;
+    background: rgba(0, 124, 194, 1);
+    border-radius: 50%;
+}
+.collection_color_22{
+    width: 58px;
+    height: 58px;
+    background: rgba(1, 160, 217, 1);
+    border-radius: 50%;
+}
+.collection_color_23{
+    width: 58px;
+    height: 58px;
+    background: rgba(222, 158, 0, 1);
+    border-radius: 50%;
+}
+.collection_color_24{
+    width: 58px;
+    height: 58px;
+    background: rgba(205, 221, 151, 1);
+    border-radius: 50%;
+}
+.collection_color_25{
+    width: 58px;
+    height: 58px;
+    background: rgba(223, 208, 70, 1);
+    border-radius: 50%;
+}
+.collection_color_26{
+    width: 58px;
+    height: 58px;
+    background: rgba(245, 188, 207, 1);
+    border-radius: 50%;
+}
+.collection_color_27{
+    width: 58px;
+    height: 58px;
+    background: rgba(225, 217, 83, 1);
+    border-radius: 50%;
+}
+.collection_color_28{
+    width: 58px;
+    height: 58px;
+    background: rgba(208, 146, 49, 1);
+    border-radius: 50%;
+}
+.collection_color_29{
+    width: 58px;
+    height: 58px;
+    background: rgba(86, 62, 67, 1);
+    border-radius: 50%;
+}
+.collection_color_30{
+    width: 58px;
+    height: 58px;
+    background: rgba(169, 193, 42, 1);
+    border-radius: 50%;
+}
